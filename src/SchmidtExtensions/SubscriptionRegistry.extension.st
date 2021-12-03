@@ -1,6 +1,6 @@
 Extension { #name : #SubscriptionRegistry }
 
-{ #category : #'*UsefulExtensions' }
+{ #category : #'*SchmidtExtensions' }
 SubscriptionRegistry >> hasSubscriptionsOf: anObject for: anAnnouncementClass [
 	| copy |
 	self protected: [ copy := subscriptions copy ].

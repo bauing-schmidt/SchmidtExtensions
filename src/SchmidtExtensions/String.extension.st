@@ -1,6 +1,6 @@
 Extension { #name : #String }
 
-{ #category : #'*UsefulExtensions' }
+{ #category : #'*SchmidtExtensions' }
 String >> prefixCamelCased: aPrefix [
 	"#notNil prefixCamelCased: 'really' "
 
@@ -13,7 +13,7 @@ String >> prefixCamelCased: aPrefix [
 	^s asSymbol
 ]
 
-{ #category : #'*UsefulExtensions' }
+{ #category : #'*SchmidtExtensions' }
 String >> surroundedByDoubleQuotes [
 	"Answer the receiver with leading and trailing double quotes.  "
 

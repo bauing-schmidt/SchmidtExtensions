@@ -1,6 +1,6 @@
 Extension { #name : #Symbol }
 
-{ #category : #'*UsefulExtensions' }
+{ #category : #'*SchmidtExtensions' }
 Symbol >> exchangePrefix: oldPrefix with: newPrefix [
 	"#createNodeActivity exchangePrefix: 'create' with: 'Wfe' 
 	-> #WfeNodeActivity"

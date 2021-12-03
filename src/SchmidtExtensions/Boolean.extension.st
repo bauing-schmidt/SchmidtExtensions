@@ -1,6 +1,6 @@
 Extension { #name : #Boolean }
 
-{ #category : #'*UsefulExtensions' }
+{ #category : #'*SchmidtExtensions' }
 Boolean >> isBoolean [
 
 	^ true

@@ -1,6 +1,6 @@
 Extension { #name : #ReadStream }
 
-{ #category : #'*UsefulExtensions' }
+{ #category : #'*SchmidtExtensions' }
 ReadStream >> sizeUpToEnd [
 
 	^ readLimit - position

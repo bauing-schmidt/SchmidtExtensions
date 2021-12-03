@@ -1,58 +1,58 @@
 Extension { #name : #Point }
 
-{ #category : #'*UsefulExtensions' }
+{ #category : #'*SchmidtExtensions' }
 Point >> distanceToOrigin [
 
 	^ self distanceTo: 0 @ 0
 ]
 
-{ #category : #'*UsefulExtensions' }
+{ #category : #'*SchmidtExtensions' }
 Point >> downBy: aNumber [
 
 	^x @ (y + aNumber)
 ]
 
-{ #category : #'*UsefulExtensions' }
+{ #category : #'*SchmidtExtensions' }
 Point >> half [
 	^x half @ y half
 ]
 
-{ #category : #'*UsefulExtensions' }
+{ #category : #'*SchmidtExtensions' }
 Point >> leftBy: aNumber [
 
 	^(x - aNumber) @ y
 ]
 
-{ #category : #'*UsefulExtensions' }
+{ #category : #'*SchmidtExtensions' }
 Point >> rightBy: aNumber [
 
 	^(x + aNumber) @ y
 ]
 
-{ #category : #'*UsefulExtensions' }
+{ #category : #'*SchmidtExtensions' }
 Point >> upBy: aNumber [
 
 	^x @ (y - aNumber)
 ]
 
-{ #category : #'*UsefulExtensions' }
+{ #category : #'*SchmidtExtensions' }
 Point >> x: xValue [ 
 	
 	x := xValue
 ]
 
-{ #category : #'*UsefulExtensions' }
+{ #category : #'*SchmidtExtensions' }
 Point >> y: yValue [ 
 	
 	y := yValue
 ]
 
-{ #category : #'*UsefulExtensions' }
+{ #category : #'*SchmidtExtensions' }
 Point class >> zero [ 
 	^ 0@0
 ]
 
-{ #category : #'*UsefulExtensions' }
+{ #category : #'*SchmidtExtensions' }
 Point >> π [
 
 	^ (self angle / Float π) asFraction

@@ -1,6 +1,6 @@
 Extension { #name : #CompiledCode }
 
-{ #category : #'*UsefulExtensions' }
+{ #category : #'*SchmidtExtensions' }
 CompiledCode >> methodClassName [
 
 	^ self methodClass name

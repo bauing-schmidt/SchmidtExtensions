@@ -1,35 +1,35 @@
 Extension { #name : #Object }
 
-{ #category : #'*UsefulExtensions' }
+{ #category : #'*SchmidtExtensions' }
 Object >> asReflexiveAssociation [
 	^ self -> self
 ]
 
-{ #category : #'*UsefulExtensions' }
+{ #category : #'*SchmidtExtensions' }
 Object >> asReflexivePoint [
 
 	^ Point x: self y: self
 ]
 
-{ #category : #'*UsefulExtensions' }
+{ #category : #'*SchmidtExtensions' }
 Object >> isBoolean [
 
 	^ false
 ]
 
-{ #category : #'*UsefulExtensions' }
+{ #category : #'*SchmidtExtensions' }
 Object >> itself: anObject [
 
 	^ anObject
 ]
 
-{ #category : #'*UsefulExtensions' }
+{ #category : #'*SchmidtExtensions' }
 Object >> prependBlock: aFullBlockClosure [
 
 	^ aFullBlockClosure value: self
 ]
 
-{ #category : #'*UsefulExtensions' }
+{ #category : #'*SchmidtExtensions' }
 Object >> yourself: aBlock [
 
 	"I invoke the given block giving myself as argument if it needs to consume me.

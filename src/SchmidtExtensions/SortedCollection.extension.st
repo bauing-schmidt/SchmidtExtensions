@@ -1,6 +1,6 @@
 Extension { #name : #SortedCollection }
 
-{ #category : #'*UsefulExtensions' }
+{ #category : #'*SchmidtExtensions' }
 SortedCollection class >> withAll: aList sortBlock: filterBlock [
 
 	| collection |

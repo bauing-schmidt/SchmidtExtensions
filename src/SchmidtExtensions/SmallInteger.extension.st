@@ -1,6 +1,6 @@
 Extension { #name : #SmallInteger }
 
-{ #category : #'*UsefulExtensions' }
+{ #category : #'*SchmidtExtensions' }
 SmallInteger >> fordRadius [
 
 	^ 1 / 2

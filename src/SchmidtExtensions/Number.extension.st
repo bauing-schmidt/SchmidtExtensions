@@ -1,17 +1,17 @@
 Extension { #name : #Number }
 
-{ #category : #'*UsefulExtensions' }
+{ #category : #'*SchmidtExtensions' }
 Number >> asText [ 
 
 	^ self asString asText
 ]
 
-{ #category : #'*UsefulExtensions' }
+{ #category : #'*SchmidtExtensions' }
 Number >> half [
 	^ self / 2
 ]
 
-{ #category : #'*UsefulExtensions' }
+{ #category : #'*SchmidtExtensions' }
 Number >> midpoint: anArithmeticValue [
 	^(self + anArithmeticValue) half
 ]
