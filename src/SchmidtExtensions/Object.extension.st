@@ -30,6 +30,12 @@ Object >> prependBlock: aFullBlockClosure [
 ]
 
 { #category : #'*SchmidtExtensions' }
+Object >> traceCrAs: name [
+
+	name trace. ': ' trace. self traceCr: self 
+]
+
+{ #category : #'*SchmidtExtensions' }
 Object >> yourself: aBlock [
 
 	"I invoke the given block giving myself as argument if it needs to consume me.
