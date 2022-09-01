@@ -19,3 +19,12 @@ String >> surroundedByDoubleQuotes [
 
 	^ self surroundedBy: ($" asString)
 ]
+
+{ #category : #'*SchmidtExtensions' }
+String >> withLFs [
+	"Return a copy of the receiver in which backslash (\) characters have been replaced with line feed. For example '-hello\-hi' will be
+	'-hello
+	 -hi'"
+
+	^ self collect: [ :c | c = $\ ifTrue: [ Character lf ] ifFalse: [ c ]].
+]
